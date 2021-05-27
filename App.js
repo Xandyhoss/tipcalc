@@ -86,7 +86,7 @@ export default () => {
 
       <Input
       keyboardType='numeric'
-      placeholder='Insira o valor da conta:'
+      placeholder='Insira o valor:'
       value = {bill}
       onChangeText={n=>setBill(n)}
       />
