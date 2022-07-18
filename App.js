@@ -65,11 +65,8 @@ export default () => {
 
 
   function calc(){
-
     let nBill = parseFloat(bill);
-
     setTip(nBill * (pct/100));
-
   }
 
   function verify(){
